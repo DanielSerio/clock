@@ -1,0 +1,33 @@
+.time,
+.time > .secondary,
+.sec,
+.ampm,
+.primary {
+  display: flex;
+}
+
+.section.time {
+  font-size: 8rem;
+  line-height: 1;
+  justify-content: center;
+}
+
+.secondary {
+  flex-direction: column;
+  font-size: 0.38em;
+}
+
+.sec,
+.ampm { 
+  flex: 1; 
+  align-items: flex-end;
+  margin-top: -0.2rem;
+}
+
+.ampm { margin-bottom: 0.1rem; }
+
+.primary {
+  margin: -0.5rem 0;
+}
+
+.sec { opacity: 0.2 !important; }

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Muli';
+  src: url(./font/Muli-Regular.ttf) format('TrueType');
+}
+
+@font-face {
+  font-family: 'Muli Bold';
+  src: url(./font/Muli-Bold.ttf) format('TrueType');
+}

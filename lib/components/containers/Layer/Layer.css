@@ -1,0 +1,44 @@
+.layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 480px;
+  height: 320px;
+  padding: 1rem;
+  font-family: 'Muli';
+  background: black;
+}
+
+.layer-inner {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.layer.clock > .layer-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.clock > .layer-inner > .content { flex: 1; }
+
+.content { 
+  text-align: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-footer { text-align: right; }
+
+
+.clock-footer > .icon-btn {
+  height: 30px;
+  width: 30px;
+}
+
+::selection {
+  background: transparent;
+  color: inherit;
+}

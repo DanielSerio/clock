@@ -1,0 +1,8 @@
+.swatch {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+  line-height: 2;
+}
